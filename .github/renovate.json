@@ -1,7 +1,7 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
   "pip_requirements": {
     "fileMatch": [ "^zapisy/requirements\.([\w]*)\.txt$" ]
   }
