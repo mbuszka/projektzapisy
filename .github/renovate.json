@@ -3,6 +3,6 @@
     "config:base"
   ],
   "pip_requirements": {
-    "fileMatch": [ "^zapisy/requirements\.([\w]*)\.txt$" ]
+    "fileMatch": [ "^zapisy/requirements\\.([\\w]*)\\.txt$" ]
   }
 }
