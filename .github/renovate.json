@@ -1,7 +1,9 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    "group:allNonMajor"
   ],
+  "groupName": "",
   "pip_requirements": {
     "fileMatch": [ "^zapisy/requirements\\.([\\w]*)\\.txt$" ]
   }
