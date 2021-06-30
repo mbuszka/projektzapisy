@@ -6,5 +6,7 @@
   "groupName": "",
   "pip_requirements": {
     "fileMatch": [ "^zapisy/requirements\\.([\\w]*)\\.txt$" ]
-  }
+  },
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 50
 }
