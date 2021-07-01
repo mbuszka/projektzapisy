@@ -1361,10 +1361,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/js-cookie@npm:2.2.4":
-  version: 2.2.4
-  resolution: "@types/js-cookie@npm:2.2.4"
-  checksum: 5a0ccda9253f7ce54e21f2c42807a9030c5e5ed71b0ea525821d103684c91d0550453d135911cca24da7c4eed4c0d551d2076d03228cc1c5395055e5b7ca847c
+"@types/js-cookie@npm:2.2.6":
+  version: 2.2.6
+  resolution: "@types/js-cookie@npm:2.2.6"
+  checksum: 08d3a2a014d2b7fd97070b5e5039f2ca387f07b9ecc13cfa85040479e7adbd62087901bd8adf94b2afad96457652996d1f051282ad3d4677a7ae1b6bf87a640f
   languageName: node
   linkType: hard
 
@@ -4434,7 +4434,7 @@ fsevents@~2.1.2:
     "@fullcalendar/timegrid": 5.3.1
     "@types/bootstrap": 4.3.0
     "@types/jquery": 3.5.1
-    "@types/js-cookie": 2.2.4
+    "@types/js-cookie": 2.2.6
     "@types/js-yaml": 3.12.1
     "@types/katex": 0.11.0
     "@types/lodash": 4.14.135
