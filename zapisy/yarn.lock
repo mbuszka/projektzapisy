@@ -1305,9 +1305,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bokeh/bokehjs@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@bokeh/bokehjs@npm:2.2.0"
+"@bokeh/bokehjs@npm:2.3.2":
+  version: 2.3.2
+  resolution: "@bokeh/bokehjs@npm:2.3.2"
   dependencies:
     "@bokeh/numbro": ^1.6.2
     "@bokeh/slickgrid": ~2.4.2701
@@ -1319,15 +1319,15 @@ __metadata:
     es6-symbol: ^3.1.3
     es6-weak-map: ^2.0.2
     flatbush: ^3.2.1
-    flatpickr: ^4.6.3
+    flatpickr: ^4.6.6
     hammerjs: ^2.0.4
-    nouislider: ^14.6.0
-    proj4: ^2.6.2
+    nouislider: ^14.6.3
+    proj4: ^2.6.3
     sprintf-js: ^1.1.2
     timezone: ^1.0.23
-    tslib: ^1.11.0
+    tslib: ^2.0.3
     underscore.template: ^0.1.7
-  checksum: a16c5fe9b17e593e4c0268974773a4b7ae55af5afbc3fba05de0830cc8dee4c66e4edc0e477f50f04253155ac00e6370d03dd229345169d165fc6b74822026fc
+  checksum: a1c64da992af4235f631e4f337cf9e91e9f7aa178b8a6b2a986ff89d667a9f58473839c238767e5ba884c4b2a3e7d7818420f4b47e3cb7daeeb4beaa4f6d338c
   languageName: node
   linkType: hard
 
@@ -4088,10 +4088,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flatpickr@npm:^4.6.3":
-  version: 4.6.6
-  resolution: "flatpickr@npm:4.6.6"
-  checksum: a16cd4bdb1349453d36f74c7ea90e372de6db6c8b923833074c7bd59cff21ff2b17039df834b0468b03077442e06f7b068577b3b470e1052478074b5c4fbfe25
+"flatpickr@npm:^4.6.6":
+  version: 4.6.9
+  resolution: "flatpickr@npm:4.6.9"
+  checksum: ffcbe9ab04509f3e725139ad9835f0e7ec1ff025f1ccfafe26139fb37e67f661a048e6a3349ecc7620744fbfa8988e64bec95480024261b01de32c999d62ce38
   languageName: node
   linkType: hard
 
@@ -4708,7 +4708,7 @@ fsevents@~2.1.2:
   dependencies:
     "@babel/core": 7.14.6
     "@babel/preset-env": 7.14.7
-    "@bokeh/bokehjs": 2.2.0
+    "@bokeh/bokehjs": 2.3.2
     "@fortawesome/fontawesome-free": 5.15.3
     "@fortawesome/fontawesome-svg-core": 1.2.35
     "@fortawesome/free-brands-svg-icons": 5.15.3
@@ -6031,10 +6031,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"nouislider@npm:^14.6.0":
-  version: 14.6.1
-  resolution: "nouislider@npm:14.6.1"
-  checksum: 3b904a4d643a8b9db49d7eca333abd857a9ba20ef9cdcef470695ffa6ee616134643ad0ab8aee3f6d9cf969d68d2d5b34d19da4bc4d942e8c474e5b6d0422b9d
+"nouislider@npm:^14.6.3":
+  version: 14.7.0
+  resolution: "nouislider@npm:14.7.0"
+  checksum: f67efda86770ddb026f740af6f2d07636aa9a940cb1b9d3e7088aa42b7dcfa454a6cb546ff1c5e4e1f6eb6a2adf24c59e886f5e45f8b1baf0f5f4631f2e3743d
   languageName: node
   linkType: hard
 
@@ -6668,13 +6668,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"proj4@npm:^2.6.2":
-  version: 2.6.2
-  resolution: "proj4@npm:2.6.2"
+"proj4@npm:^2.6.3":
+  version: 2.7.4
+  resolution: "proj4@npm:2.7.4"
   dependencies:
     mgrs: 1.0.0
-    wkt-parser: ^1.2.4
-  checksum: 8a25a97ca64f9f73cee57916087f5aaa9171c00201ccceb490859fb018ec0cbdbcafc11d1c2ba883b2252f1d90466c72177d767dc9833d00a428661f0c26a952
+    wkt-parser: ^1.3.1
+  checksum: a770f882c1b41dd061a40a385bc45d2f4ad0a9cc81b7628e5cb022e8499203d47ca5f058714bee74760674169b66ff210bca076a397d2364c4099a7e32e7c8eb
   languageName: node
   linkType: hard
 
@@ -8000,7 +8000,7 @@ resolve@^1.14.2:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.10.0, tslib@npm:^1.11.0, tslib@npm:^1.9.0":
+"tslib@npm:^1.10.0, tslib@npm:^1.9.0":
   version: 1.13.0
   resolution: "tslib@npm:1.13.0"
   checksum: 5dc3bdaea3b67c76ef4a14c28fcb2171da7bcf292fd9c59a260098729626b1ce766c52b588f08e324ed9a0c52ea8a93a815920f980d75981abc9d850fbf310fb
@@ -8011,6 +8011,13 @@ resolve@^1.14.2:
   version: 2.0.1
   resolution: "tslib@npm:2.0.1"
   checksum: 7b42337a07f536c9650c72471cdf51317f07eb981692e91b8979fee3f6e20136a8f047e6ecdc5f2f3201132a6cc4e0096fa3c58655eba3803bf7fe739ccd088e
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.0.3":
+  version: 2.3.0
+  resolution: "tslib@npm:2.3.0"
+  checksum: 7b4fc9feff0f704743c3760f5d8d708f6417fac6458159e63df3a6b1100f0736e3b99edb9fe370f274ad15160a1f49ff05cb49402534c818ff552c48e38c3e6e
   languageName: node
   linkType: hard
 
@@ -8563,10 +8570,10 @@ typescript@4.0.2:
   languageName: node
   linkType: hard
 
-"wkt-parser@npm:^1.2.4":
-  version: 1.2.4
-  resolution: "wkt-parser@npm:1.2.4"
-  checksum: 1d87437bd28abd57835cd8bb088e49dc182d767ab9a84b436ffac3a1ddf0577546fc680c412e9ce6673b0363acde1b914fad96fd0aa8c3e1301ced3ceee0fb0d
+"wkt-parser@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "wkt-parser@npm:1.3.1"
+  checksum: 37486a1f7bbcaee3c0e6cfd3c59eb3cb0f0842a84ac4fcbba88b8d8658e2c60eb3468c47ce7592de4e024d2d084d30ec3e43807ae685596dd1c16c907d7a7db2
   languageName: node
   linkType: hard
 
