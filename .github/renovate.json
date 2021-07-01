@@ -1,12 +1,37 @@
 {
   "extends": [
     "config:base",
-    "group:allNonMajor"
   ],
-  "groupName": "",
+  "automergeType": "pr",
+  "dependencyDashboard": true,
+  "prCreation": "not-pending",
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 50,
+  "stabilityDays": 7,
+  "labels": ["dependencies"],
   "pip_requirements": {
     "fileMatch": [ "^zapisy/requirements\\.([\\w]*)\\.txt$" ]
   },
-  "prHourlyLimit": 0,
-  "prConcurrentLimit": 50
+  "packageRules": [
+    {
+      "description": "Require dashboard approval for major updates",
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    },
+    {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
+      "automerge": true
+    },
+    {
+      "description": "Label JS deps",
+      "matchLanguages": ["js"],
+      "addLabels": ["javascript"]
+    },
+    {
+      "description": "Label Python deps",
+      "matchLanguages": ["python"],
+      "addLabels": ["python"]
+    }
+  ]
 }
