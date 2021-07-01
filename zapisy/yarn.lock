@@ -4133,9 +4133,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fork-ts-checker-webpack-plugin@npm:5.1.0":
-  version: 5.1.0
-  resolution: "fork-ts-checker-webpack-plugin@npm:5.1.0"
+"fork-ts-checker-webpack-plugin@npm:5.2.1":
+  version: 5.2.1
+  resolution: "fork-ts-checker-webpack-plugin@npm:5.2.1"
   dependencies:
     "@babel/code-frame": ^7.8.3
     "@types/json-schema": ^7.0.5
@@ -4148,7 +4148,7 @@ __metadata:
     schema-utils: 2.7.0
     semver: ^7.3.2
     tapable: ^1.0.0
-  checksum: 704def03dd5565d163a17738f1767a19f6a1dea89a76e7393fb335099bafb6ecc46a9f4a0ada73d651ed1765cdef9e81db134897ea1d9f55e2954bda70f885ed
+  checksum: 0e6098f2929355568bc367fd58dfb761f8a4b8190a6ea97aa1cb1c218054e6cb0915cd1a424c0d1812db1cee14a2cceaa93d2bfec4aa627a8f772097c7ba8666
   languageName: node
   linkType: hard
 
@@ -4739,7 +4739,7 @@ fsevents@~2.1.2:
     css-loader: 4.3.0
     dayjs: 1.10.5
     file-loader: 6.2.0
-    fork-ts-checker-webpack-plugin: 5.1.0
+    fork-ts-checker-webpack-plugin: 5.2.1
     jquery: 3.5.1
     js-cookie: 2.2.1
     js-sha256: 0.9.0
