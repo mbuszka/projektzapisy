@@ -65,7 +65,7 @@
     "sass": "1.26.10",
     "sass-loader": "10.0.2",
     "spicery": "1.1.0",
-    "terser-webpack-plugin": "4.2.0",
+    "terser-webpack-plugin": "4.2.3",
     "ts-loader": "8.0.3",
     "typescript": "4.0.2",
     "vue-class-component": "7.2.5",
