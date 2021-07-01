@@ -1519,12 +1519,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:*, @types/jquery@npm:3.5.1":
+"@types/jquery@npm:*":
   version: 3.5.1
   resolution: "@types/jquery@npm:3.5.1"
   dependencies:
     "@types/sizzle": "*"
   checksum: 43f7885e75a7c5fdecb99ff7893a844d53b88ba5d6fb8c8d9bf65d0bfc42ee1ec75844cc9b73bcefd5d955376cb37dcbc9950e3d18e8922a8ef30e3ef8dab78e
+  languageName: node
+  linkType: hard
+
+"@types/jquery@npm:3.5.5":
+  version: 3.5.5
+  resolution: "@types/jquery@npm:3.5.5"
+  dependencies:
+    "@types/sizzle": "*"
+  checksum: 9e3c34451577c6916ac9de8a26fd8bce2831cb5861116514cba4a984189067635a3e084039308324d8e20bfa5f2e1ce7725a509110e5e05487b91f9369b1ae43
   languageName: node
   linkType: hard
 
@@ -4720,7 +4729,7 @@ fsevents@~2.1.2:
     "@fullcalendar/daygrid": 5.3.2
     "@fullcalendar/timegrid": 5.3.1
     "@types/bootstrap": 4.6.0
-    "@types/jquery": 3.5.1
+    "@types/jquery": 3.5.5
     "@types/js-cookie": 2.2.6
     "@types/js-yaml": 3.12.6
     "@types/katex": 0.11.0
@@ -4740,7 +4749,7 @@ fsevents@~2.1.2:
     dayjs: 1.10.5
     file-loader: 6.2.0
     fork-ts-checker-webpack-plugin: 5.2.1
-    jquery: 3.5.1
+    jquery: 3.6.0
     js-cookie: 2.2.1
     js-sha256: 0.9.0
     katex: 0.12.0
@@ -5162,7 +5171,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"jquery@npm:3.5.1, jquery@npm:>=3.4.0, jquery@npm:^3.3.1":
+"jquery@npm:3.6.0":
+  version: 3.6.0
+  resolution: "jquery@npm:3.6.0"
+  checksum: a0a819022a1bdff5efa79bbd9d4d7352de5bd32dabe42108e6ec0797238dba36c09c108e0eea2724f5d03acc1b30ee87d76bec80e15b9510106532292ebe6ba4
+  languageName: node
+  linkType: hard
+
+"jquery@npm:>=3.4.0, jquery@npm:^3.3.1":
   version: 3.5.1
   resolution: "jquery@npm:3.5.1"
   checksum: c50818c84837902a60938c85786feb612f346a9918f7285409d605449460790b3815ad8aaf5806f19e89f1a79b27d327802b421ab354fe213f3fd1801e3562e6
