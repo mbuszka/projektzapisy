@@ -1477,13 +1477,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/bootstrap@npm:4.3.0":
-  version: 4.3.0
-  resolution: "@types/bootstrap@npm:4.3.0"
+"@types/bootstrap@npm:4.6.0":
+  version: 4.6.0
+  resolution: "@types/bootstrap@npm:4.6.0"
   dependencies:
     "@types/jquery": "*"
     popper.js: ^1.14.1
-  checksum: 742605789da9fde67f7e0f7c2fb17690bc5ab39ed8167060d3fe2b4143f8022e602fd9ce7cf43204a21bfbae3df827fdc198aceffa369f0a8ea37125e0c3bfe0
+  checksum: bea3c71545c1552a0ecda4390bf1b06da66aa9663039d86326ddb859b470ec8361a9fc24bdb253f4d571a89bba6c9c8547346ec4e037578a680c05bb78373a8c
   languageName: node
   linkType: hard
 
@@ -2444,13 +2444,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:4.5.2":
-  version: 4.5.2
-  resolution: "bootstrap@npm:4.5.2"
+"bootstrap@npm:4.6.0":
+  version: 4.6.0
+  resolution: "bootstrap@npm:4.6.0"
   peerDependencies:
     jquery: 1.9.1 - 3
     popper.js: ^1.16.1
-  checksum: 980e7e4ebd1ba50b605a8f22e2b80cb024db23b5fb7790ff54bc3cd9345496610f36028fa14c78a50a50e1026a977aeaa60245211144f4fbf9d3eb3cd6949760
+  checksum: 66019b6969b997eb3bcec7276010263df643b2607db00dbbd13f451d6f6d57fa5b563cd9712a4814024e5489faf5e2d73c553a1ebea1b61d0e1ab766e4805229
   languageName: node
   linkType: hard
 
@@ -4719,7 +4719,7 @@ fsevents@~2.1.2:
     "@fullcalendar/core": 5.3.1
     "@fullcalendar/daygrid": 5.3.2
     "@fullcalendar/timegrid": 5.3.1
-    "@types/bootstrap": 4.3.0
+    "@types/bootstrap": 4.6.0
     "@types/jquery": 3.5.1
     "@types/js-cookie": 2.2.6
     "@types/js-yaml": 3.12.6
@@ -4731,7 +4731,7 @@ fsevents@~2.1.2:
     axios: 0.21.1
     babel-loader: 8.2.2
     big-integer: 1.6.48
-    bootstrap: 4.5.2
+    bootstrap: 4.6.0
     bootstrap-sortable: "git://github.com/drvic10k/bootstrap-sortable.git#ff650fd17cc2872f4031d355fa6382066d064e87"
     checkboxes.js: 1.2.2
     clean-webpack-plugin: 3.0.0
