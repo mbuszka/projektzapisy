@@ -1352,6 +1352,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/highlight.js@npm:^9.7.0":
+  version: 9.12.4
+  resolution: "@types/highlight.js@npm:9.12.4"
+  checksum: 3aea09c0961ea5054be8ea4756d8936756b2c72e568b45a4a5cc8ab7aa8eaf1e9090bf9bc00f12c1b15ba71b3450a9068b6e6e768fad8ef072f2c864d75c922e
+  languageName: node
+  linkType: hard
+
 "@types/jquery@npm:*, @types/jquery@npm:3.5.1":
   version: 3.5.1
   resolution: "@types/jquery@npm:3.5.1"
@@ -1403,13 +1410,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/markdown-it@npm:10.0.2":
-  version: 10.0.2
-  resolution: "@types/markdown-it@npm:10.0.2"
+"@types/markdown-it@npm:10.0.3":
+  version: 10.0.3
+  resolution: "@types/markdown-it@npm:10.0.3"
   dependencies:
+    "@types/highlight.js": ^9.7.0
     "@types/linkify-it": "*"
     "@types/mdurl": "*"
-  checksum: aa9ba8c7c5626ab6bea06d4e70f9c93bafbc286ca02f915748b6e18a15726bed6e984c595a72c5b0e6ece907285b5412a0cfca4742621f88afb37b2766a3d22d
+    highlight.js: ^9.7.0
+  checksum: 38471ba12a9403c721cf1f43a08e2932ecbf6d9c452c1f6b6eeba3fdf126dbc669a7e0905f212260b9a3965bb68ca568f404d76ff83048d2f0025d5f69f53ef6
   languageName: node
   linkType: hard
 
@@ -4312,6 +4321,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"highlight.js@npm:^9.7.0":
+  version: 9.18.5
+  resolution: "highlight.js@npm:9.18.5"
+  checksum: dea74c216cec83604e35cd3187aa9fa7a7da4876d1da6519a7bb1b635566e6525fcb3a3d8f2158a11e930499acee9506c710c5121ce30d328342af2e49fe59da
+  languageName: node
+  linkType: hard
+
 "hmac-drbg@npm:^1.0.0":
   version: 1.0.1
   resolution: "hmac-drbg@npm:1.0.1"
@@ -4438,7 +4454,7 @@ fsevents@~2.1.2:
     "@types/js-yaml": 3.12.6
     "@types/katex": 0.11.0
     "@types/lodash": 4.14.170
-    "@types/markdown-it": 10.0.2
+    "@types/markdown-it": 10.0.3
     ContentTools: 1.6.12
     autoprefixer: 9.8.6
     axios: 0.20.0
