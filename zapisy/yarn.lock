@@ -4762,7 +4762,7 @@ fsevents@~2.1.2:
     katex: 0.13.11
     lodash-es: 4.17.21
     markdown-it: 11.0.1
-    mini-css-extract-plugin: 0.11.2
+    mini-css-extract-plugin: 0.12.0
     pnp-webpack-plugin: 1.6.4
     popper.js: 1.16.1
     postcss: 7.0.36
@@ -5713,9 +5713,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"mini-css-extract-plugin@npm:0.11.2":
-  version: 0.11.2
-  resolution: "mini-css-extract-plugin@npm:0.11.2"
+"mini-css-extract-plugin@npm:0.12.0":
+  version: 0.12.0
+  resolution: "mini-css-extract-plugin@npm:0.12.0"
   dependencies:
     loader-utils: ^1.1.0
     normalize-url: 1.9.1
@@ -5723,7 +5723,7 @@ fsevents@~2.1.2:
     webpack-sources: ^1.1.0
   peerDependencies:
     webpack: ^4.4.0 || ^5.0.0
-  checksum: 2dfedd9cb35f63e5e31cf05b6cc9ea180b9e1197a0ac113e7e9a2766b2e415d158797169387645eefca41173b2d2239d69a8d518fade22868ba270c741d75151
+  checksum: bd8d5fe46f82e7fc393398ad30240a1793c34686b433255b8425dcfea79dc9041897a64e1c26201d30e8acdec965787b8450da621910cdefbdf13aa3562c87fb
   languageName: node
   linkType: hard
 
