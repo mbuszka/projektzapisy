@@ -4473,7 +4473,7 @@ fsevents@~2.1.2:
     js-cookie: 2.2.1
     js-sha256: 0.9.0
     katex: 0.12.0
-    lodash-es: 4.17.15
+    lodash-es: 4.17.21
     markdown-it: 11.0.1
     mini-css-extract-plugin: 0.11.2
     pnp-webpack-plugin: 1.6.4
@@ -5166,10 +5166,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:4.17.15":
-  version: 4.17.15
-  resolution: "lodash-es@npm:4.17.15"
-  checksum: ee2871b76deefd1754527e659a8c8b688f2e427e67b30709296878e18ad9cb54b4f0fc16a7161298156b4e0ebc2a37dfe501a3ea8725f195763f9de8a7ba6da6
+"lodash-es@npm:4.17.21":
+  version: 4.17.21
+  resolution: "lodash-es@npm:4.17.21"
+  checksum: ff0e7bb9595594d8b9c32fbe15912eaeefd83266f6e6872fbc498533cf8c2f039d12d37034b33965f1c04ef66ec1d6da83377c77e84e14c51a137901bb50865e
   languageName: node
   linkType: hard
 
