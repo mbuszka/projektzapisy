@@ -4769,7 +4769,7 @@ fsevents@~2.1.2:
     postcss-loader: 4.3.0
     prettier: 2.1.1
     sass: 1.26.10
-    sass-loader: 10.0.2
+    sass-loader: 10.2.0
     spicery: 1.1.0
     terser-webpack-plugin: 4.2.3
     ts-loader: 8.0.3
@@ -5360,13 +5360,6 @@ fsevents@~2.1.2:
   version: 6.0.3
   resolution: "kind-of@npm:6.0.3"
   checksum: 5de5d6577796af87a983199d6350ed41c670abec4a306cc43ca887c1afdbd6b89af9ab00016e3ca17eb7ad89ebfd9bb817d33baa89f855c6c95398a8b8abbf08
-  languageName: node
-  linkType: hard
-
-"klona@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "klona@npm:2.0.3"
-  checksum: 69df085420a280e8d2e8c6564e23ba2bee2a03e8ca5f51e9409276bb54c6178a74adee0f94c2fc62caa584e1d2109e679abd8cc4f1114fbcd9e2886b909e8e62
   languageName: node
   linkType: hard
 
@@ -7234,18 +7227,18 @@ resolve@^1.14.2:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:10.0.2":
-  version: 10.0.2
-  resolution: "sass-loader@npm:10.0.2"
+"sass-loader@npm:10.2.0":
+  version: 10.2.0
+  resolution: "sass-loader@npm:10.2.0"
   dependencies:
-    klona: ^2.0.3
+    klona: ^2.0.4
     loader-utils: ^2.0.0
     neo-async: ^2.6.2
-    schema-utils: ^2.7.1
+    schema-utils: ^3.0.0
     semver: ^7.3.2
   peerDependencies:
     fibers: ">= 3.1.0"
-    node-sass: ^4.0.0
+    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0
     sass: ^1.3.0
     webpack: ^4.36.0 || ^5.0.0
   peerDependenciesMeta:
@@ -7255,7 +7248,7 @@ resolve@^1.14.2:
       optional: true
     sass:
       optional: true
-  checksum: 9eec5e84be53db8e46aa1e7f4cc5e48b1e72508159dcc53986a59f14789547e07084793b03638e33d9a94339e2229dca1fb5f1ece5d2e1479af329e28a28ecb7
+  checksum: 1c8914920749f2e2e404e4663c9cce6ef4d38dc7fb30117c722c25b76257ebee444c90d20e174adf621036e1afefaadc8f89b69fd912347f4618b7401afae53c
   languageName: node
   linkType: hard
 
