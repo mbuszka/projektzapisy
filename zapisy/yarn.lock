@@ -1410,54 +1410,54 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fullcalendar/bootstrap@npm:5.3.1":
-  version: 5.3.1
-  resolution: "@fullcalendar/bootstrap@npm:5.3.1"
+"@fullcalendar/bootstrap@npm:5.8.0":
+  version: 5.8.0
+  resolution: "@fullcalendar/bootstrap@npm:5.8.0"
   dependencies:
-    "@fullcalendar/common": ~5.3.1
-    tslib: ^2.0.0
-  checksum: 7429bd0f53cd12f8ca6c256746f4d9986dcce06845133e3e0ea14cf5a7d076559307ce1c86eb796703018e5f65a8287344eea1f510abe93c6b4f63ed8606528a
+    "@fullcalendar/common": ~5.8.0
+    tslib: ^2.1.0
+  checksum: 27fd860f5ac77ea90b4764a43313f758ba593d69604f90022bde1520f060225f7cd4d0b9377ae588b5d42944bdef7b2aa280ee826427bfd3039b253499e79557
   languageName: node
   linkType: hard
 
-"@fullcalendar/common@npm:~5.3.1":
-  version: 5.3.1
-  resolution: "@fullcalendar/common@npm:5.3.1"
+"@fullcalendar/common@npm:~5.8.0":
+  version: 5.8.0
+  resolution: "@fullcalendar/common@npm:5.8.0"
   dependencies:
-    tslib: ^2.0.0
-  checksum: dd473accaf852544f4a2ecc87deea2e289a71cc8249c12eff35c1f5cca9cc83876010b96cff42824e8886d28ec2998259487db49033ffa1ff61a046585807050
+    tslib: ^2.1.0
+  checksum: 3f385053214bf00a3ae8080d203ffd226e91e4642237e6d72cb9b15510785e2e0678f7716068677e43553f869fd7db5990eea68d2403aeea7df1c81ed3a41bd8
   languageName: node
   linkType: hard
 
-"@fullcalendar/core@npm:5.3.1":
-  version: 5.3.1
-  resolution: "@fullcalendar/core@npm:5.3.1"
+"@fullcalendar/core@npm:5.8.0":
+  version: 5.8.0
+  resolution: "@fullcalendar/core@npm:5.8.0"
   dependencies:
-    "@fullcalendar/common": ~5.3.1
+    "@fullcalendar/common": ~5.8.0
     preact: ^10.0.5
-    tslib: ^2.0.0
-  checksum: 7e944a8a8827d4d36d27c5daf3c56054f90c0bf55031d520315e8034cb7bf4abc2791471379327f1f08ebad3136444036f7b84f235d0b9ae37855586aef935aa
+    tslib: ^2.1.0
+  checksum: e8da63d0c6e242f5df812370db53d1fdfc403472f1b4210fae54b4a4abf22ddc9744a1779506786cf61c5b344cb902e24e1db00d7eae6dea88a0b854b315fae1
   languageName: node
   linkType: hard
 
-"@fullcalendar/daygrid@npm:5.3.2, @fullcalendar/daygrid@npm:~5.3.1":
-  version: 5.3.2
-  resolution: "@fullcalendar/daygrid@npm:5.3.2"
+"@fullcalendar/daygrid@npm:5.8.0, @fullcalendar/daygrid@npm:~5.8.0":
+  version: 5.8.0
+  resolution: "@fullcalendar/daygrid@npm:5.8.0"
   dependencies:
-    "@fullcalendar/common": ~5.3.1
-    tslib: ^2.0.0
-  checksum: c425b3c6a7565981ba03070acd24de71c6fcf29e81001734fced659845f1a93ee1a9833f4f5397965ccb724cd40d7be91a78a92330bea8d7dc7f5f6078e686af
+    "@fullcalendar/common": ~5.8.0
+    tslib: ^2.1.0
+  checksum: a07fe810cbb41a7a4651a8843171f2e1565a175ac3b032d54ce18e8e63e3f6df61700def34adc13299e5375704fb8d998c1547c61c4a9aee1a4f3c79e162896e
   languageName: node
   linkType: hard
 
-"@fullcalendar/timegrid@npm:5.3.1":
-  version: 5.3.1
-  resolution: "@fullcalendar/timegrid@npm:5.3.1"
+"@fullcalendar/timegrid@npm:5.8.0":
+  version: 5.8.0
+  resolution: "@fullcalendar/timegrid@npm:5.8.0"
   dependencies:
-    "@fullcalendar/common": ~5.3.1
-    "@fullcalendar/daygrid": ~5.3.1
-    tslib: ^2.0.0
-  checksum: e806799713b98322feee8663c340bbe5440da1099947de9ae520f4043af73e6fdeb9ef554a286f4d1f5453d2c920b1724578c096697ba5705406ad62bf05a26a
+    "@fullcalendar/common": ~5.8.0
+    "@fullcalendar/daygrid": ~5.8.0
+    tslib: ^2.1.0
+  checksum: 516450e97421e5da508a61ca12f80918e935afe16285bd8e5281e9f2ef9265d2f63b46b4d5d073ca6f15a1a19bbb5011dead0011a66d56ccea939b0df7d81595
   languageName: node
   linkType: hard
 
@@ -4742,10 +4742,10 @@ fsevents@~2.1.2:
     "@fortawesome/free-regular-svg-icons": 5.15.3
     "@fortawesome/free-solid-svg-icons": 5.15.3
     "@fortawesome/vue-fontawesome": 2.0.2
-    "@fullcalendar/bootstrap": 5.3.1
-    "@fullcalendar/core": 5.3.1
-    "@fullcalendar/daygrid": 5.3.2
-    "@fullcalendar/timegrid": 5.3.1
+    "@fullcalendar/bootstrap": 5.8.0
+    "@fullcalendar/core": 5.8.0
+    "@fullcalendar/daygrid": 5.8.0
+    "@fullcalendar/timegrid": 5.8.0
     "@types/bootstrap": 4.6.0
     "@types/jquery": 3.5.5
     "@types/js-cookie": 2.2.6
@@ -8053,14 +8053,7 @@ resolve@^1.14.2:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "tslib@npm:2.0.1"
-  checksum: 7b42337a07f536c9650c72471cdf51317f07eb981692e91b8979fee3f6e20136a8f047e6ecdc5f2f3201132a6cc4e0096fa3c58655eba3803bf7fe739ccd088e
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.0.3":
+"tslib@npm:^2.0.3, tslib@npm:^2.1.0":
   version: 2.3.0
   resolution: "tslib@npm:2.3.0"
   checksum: 7b4fc9feff0f704743c3760f5d8d708f6417fac6458159e63df3a6b1100f0736e3b99edb9fe370f274ad15160a1f49ff05cb49402534c818ff552c48e38c3e6e
