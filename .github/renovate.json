@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "automergeType": "pr",
   "dependencyDashboard": true,
   "prCreation": "not-pending",
@@ -10,7 +8,11 @@
   "stabilityDays": 7,
   "labels": ["dependencies"],
   "pip_requirements": {
-    "fileMatch": [ "^zapisy/requirements\\.([\\w]*)\\.txt$" ]
+    "fileMatch": ["^zapisy/requirements\\.([\\w]*)\\.txt$"]
+  },
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "addLabels": ["security"]
   },
   "packageRules": [
     {
@@ -19,8 +21,15 @@
       "dependencyDashboardApproval": true
     },
     {
-      "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
+      "description": "Automerge patches",
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    },
+    {
+      "description": "Automerge some minor updates",
+      "matchUpdateTypes": ["minor", "patch"],
+      "excludePackagePatterns": ["^Django$"],
+      "matchCurrentVersion": "!/^0\\./",
       "automerge": true
     },
     {
