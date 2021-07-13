@@ -1477,13 +1477,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/bootstrap@npm:4.6.0":
-  version: 4.6.0
-  resolution: "@types/bootstrap@npm:4.6.0"
+"@types/bootstrap@npm:4.6.1":
+  version: 4.6.1
+  resolution: "@types/bootstrap@npm:4.6.1"
   dependencies:
     "@types/jquery": "*"
     popper.js: ^1.14.1
-  checksum: bea3c71545c1552a0ecda4390bf1b06da66aa9663039d86326ddb859b470ec8361a9fc24bdb253f4d571a89bba6c9c8547346ec4e037578a680c05bb78373a8c
+  checksum: 4f55bc6dabc0f1707ef02244e513e331ad1451f88fdf3c0858b05b4c303ffcfae2a7b3533964e2010fffe598c8263d9a5270d57b7dc0927b77803d28cff1bc00
   languageName: node
   linkType: hard
 
@@ -4746,7 +4746,7 @@ fsevents@~2.1.2:
     "@fullcalendar/core": 5.8.0
     "@fullcalendar/daygrid": 5.8.0
     "@fullcalendar/timegrid": 5.8.0
-    "@types/bootstrap": 4.6.0
+    "@types/bootstrap": 4.6.1
     "@types/jquery": 3.5.5
     "@types/js-cookie": 2.2.6
     "@types/js-yaml": 3.12.6
