@@ -1898,12 +1898,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ContentTools@npm:1.6.12":
-  version: 1.6.12
-  resolution: "ContentTools@npm:1.6.12"
+"ContentTools@npm:1.6.13":
+  version: 1.6.13
+  resolution: "ContentTools@npm:1.6.13"
   dependencies:
     sass: ^1.25.1-test.1
-  checksum: 9295232586e1d7c822a8606923a86b7390dad5acf0660eb4c3248c51088abbd2ba82c3ccd8dadb1d72d3a04e8ec8f4b9cd1cac7e1f859c55300be07e2ddd2a0a
+  checksum: 9add0cc4c1fd3dfa3792c333259e5cf65c7d7501b67404d3465243f3584dd7036341c81db2a641611d033f09d130db5e7eedf00c23ab6612d2bbe03f918ea323
   languageName: node
   linkType: hard
 
@@ -4753,7 +4753,7 @@ fsevents@~2.1.2:
     "@types/katex": 0.11.1
     "@types/lodash": 4.14.171
     "@types/markdown-it": 10.0.3
-    ContentTools: 1.6.12
+    ContentTools: 1.6.13
     autoprefixer: 9.8.6
     axios: 0.21.1
     babel-loader: 8.2.2
