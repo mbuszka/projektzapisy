@@ -16,7 +16,7 @@
     "@fullcalendar/core": "5.8.0",
     "@fullcalendar/daygrid": "5.8.0",
     "@fullcalendar/timegrid": "5.8.0",
-    "ContentTools": "1.6.12",
+    "ContentTools": "1.6.13",
     "axios": "0.21.1",
     "big-integer": "1.6.48",
     "bootstrap": "4.6.0",
