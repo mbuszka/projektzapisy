@@ -21,7 +21,7 @@ pycryptodome==3.10.1
 rollbar==0.16.1
 newrelic==5.24.0.153
 gunicorn==20.1.0
-python-dateutil==2.8.1
+python-dateutil==2.8.2
 python-memcached==1.59
 xhtml2pdf==0.2.5
 # BBCode -> HTML
