@@ -4866,7 +4866,7 @@ fsevents@~2.1.2:
     typescript: 4.0.2
     vue: 2.6.14
     vue-class-component: 7.2.6
-    vue-loader: 15.9.7
+    vue-loader: 15.9.8
     vue-template-compiler: 2.6.14
     vue-timers: 2.0.4
     vuex: 3.6.2
@@ -8448,9 +8448,9 @@ typescript@4.0.2:
   languageName: node
   linkType: hard
 
-"vue-loader@npm:15.9.7":
-  version: 15.9.7
-  resolution: "vue-loader@npm:15.9.7"
+"vue-loader@npm:15.9.8":
+  version: 15.9.8
+  resolution: "vue-loader@npm:15.9.8"
   dependencies:
     "@vue/component-compiler-utils": ^3.1.0
     hash-sum: ^1.0.2
@@ -8465,7 +8465,7 @@ typescript@4.0.2:
       optional: true
     vue-template-compiler:
       optional: true
-  checksum: 48c7785a24b2561618eb7524c14fa44c25f0277aa6a523b5e8d872585cfe863cc077ad5e2852bb94c98173ee936ddc465db659726f08e50b6151331301ea4372
+  checksum: bbbf069081b867f8b3135e51444818bae8199239f7718ebf484a4e81ddbb17629673d5a2eabb2abf4b2b822dd0fa75b78b487ab1f085714e0728a4c475536a74
   languageName: node
   linkType: hard
 
