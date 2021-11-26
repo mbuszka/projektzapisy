@@ -5055,7 +5055,7 @@ fsevents@~2.1.2:
     pnp-webpack-plugin: 1.7.0
     popper.js: 1.16.1
     postcss: 7.0.39
-    postcss-loader: 4.3.0
+    postcss-loader: 6.2.1
     prettier: 2.1.1
     sass: 1.26.10
     sass-loader: 10.2.0
@@ -5656,6 +5656,13 @@ fsevents@~2.1.2:
   version: 2.0.4
   resolution: "klona@npm:2.0.4"
   checksum: be4a0c784135b6a75ac2c5ac9564894807aa050de041ac775a20d3ee46969ac5c3d37503d12c215c7decb592196e59e22852fd0cf28ac0cc29fe3a6df9168624
+  languageName: node
+  linkType: hard
+
+"klona@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "klona@npm:2.0.5"
+  checksum: 0fa5dada3d91fdd5959094a5f89f37e099d6f7aad95e581be22fbdaaf2a91800ca9f7f10915a6c0eba5dbd2b51697b053b169cad74a99dabc8967f990195fd48
   languageName: node
   linkType: hard
 
@@ -6877,19 +6884,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:4.3.0":
-  version: 4.3.0
-  resolution: "postcss-loader@npm:4.3.0"
+"postcss-loader@npm:6.2.1":
+  version: 6.2.1
+  resolution: "postcss-loader@npm:6.2.1"
   dependencies:
     cosmiconfig: ^7.0.0
-    klona: ^2.0.4
-    loader-utils: ^2.0.0
-    schema-utils: ^3.0.0
-    semver: ^7.3.4
+    klona: ^2.0.5
+    semver: ^7.3.5
   peerDependencies:
     postcss: ^7.0.0 || ^8.0.1
-    webpack: ^4.0.0 || ^5.0.0
-  checksum: 95cfab2b63e7f981c2365989316a5f155525c07770381971d258a56b4ddbad23127fcaea5debd32231f45a87d5a88943a79c65f66733d8506ec8f11421ddee59
+    webpack: ^5.0.0
+  checksum: c0b49a1ee506409243e7483982fb025ed2334c1ad6078598c119860bcd3986a9818845d6ec97b49723b6572e159849093ffc1185705f73c47e37907a477f8c25
   languageName: node
   linkType: hard
 
@@ -7685,7 +7690,7 @@ resolve@^1.14.2:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.4":
+"semver@npm:^7.3.4, semver@npm:^7.3.5":
   version: 7.3.5
   resolution: "semver@npm:7.3.5"
   dependencies:
