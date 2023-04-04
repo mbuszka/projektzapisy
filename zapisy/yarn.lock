@@ -1902,13 +1902,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/highlight.js@npm:^9.7.0":
-  version: 9.12.4
-  resolution: "@types/highlight.js@npm:9.12.4"
-  checksum: 3aea09c0961ea5054be8ea4756d8936756b2c72e568b45a4a5cc8ab7aa8eaf1e9090bf9bc00f12c1b15ba71b3450a9068b6e6e768fad8ef072f2c864d75c922e
-  languageName: node
-  linkType: hard
-
 "@types/jquery@npm:*":
   version: 3.5.1
   resolution: "@types/jquery@npm:3.5.1"
@@ -1969,15 +1962,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/markdown-it@npm:10.0.3":
-  version: 10.0.3
-  resolution: "@types/markdown-it@npm:10.0.3"
+"@types/markdown-it@npm:12.2.3":
+  version: 12.2.3
+  resolution: "@types/markdown-it@npm:12.2.3"
   dependencies:
-    "@types/highlight.js": ^9.7.0
     "@types/linkify-it": "*"
     "@types/mdurl": "*"
-    highlight.js: ^9.7.0
-  checksum: 38471ba12a9403c721cf1f43a08e2932ecbf6d9c452c1f6b6eeba3fdf126dbc669a7e0905f212260b9a3965bb68ca568f404d76ff83048d2f0025d5f69f53ef6
+  checksum: a19856ffda48ea1580f268a8a2536ba55abc5042e30475f40c095a04fbac4ed480cf9dd56e12a214e9a83207987ae72388610c696146b6275067d0c42a2d4081
   languageName: node
   linkType: hard
 
@@ -2468,12 +2459,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"argparse@npm:^1.0.7":
-  version: 1.0.10
-  resolution: "argparse@npm:1.0.10"
-  dependencies:
-    sprintf-js: ~1.0.2
-  checksum: 435adaef5f6671c3ef1478a22be6fd54bdb99fdbbce8f5561b9cbbb05068ccce87b7df3b9f3322ff52a6ebb9cab2b427cbedac47a07611690a9beaa5184093e2
+"argparse@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "argparse@npm:2.0.1"
+  checksum: 160b7a25d2a7097fd5fdf25eb8a99e037340078f70e6c7cfdef305837ed14d54570b2b13261bcae26c8cd44ad6e9a7136a0110d815ac65a7891c69c7bf2f4afd
   languageName: node
   linkType: hard
 
@@ -4064,10 +4053,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"entities@npm:~2.0.0":
-  version: 2.0.3
-  resolution: "entities@npm:2.0.3"
-  checksum: 02dfe1fbf531dd667420ff4e963ddc049203471ba8ad2873655303aff4cf65f27823effb397521af4d58b5609d33fc0492b0cc073c8374f3bbe6d3b5bcec1a42
+"entities@npm:~2.1.0":
+  version: 2.1.0
+  resolution: "entities@npm:2.1.0"
+  checksum: 91d5330633b97df881bcd02e233d32067876d45abdc7c75cf058ded524d8b22f8dc7a3965813d6982ceeba918abdbd9029a0459759ee5f6f98ec953a4786612f
   languageName: node
   linkType: hard
 
@@ -5077,13 +5066,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"highlight.js@npm:^9.7.0":
-  version: 9.18.5
-  resolution: "highlight.js@npm:9.18.5"
-  checksum: dea74c216cec83604e35cd3187aa9fa7a7da4876d1da6519a7bb1b635566e6525fcb3a3d8f2158a11e930499acee9506c710c5121ce30d328342af2e49fe59da
-  languageName: node
-  linkType: hard
-
 "hmac-drbg@npm:^1.0.0":
   version: 1.0.1
   resolution: "hmac-drbg@npm:1.0.1"
@@ -5210,7 +5192,7 @@ fsevents@~2.1.2:
     "@types/js-yaml": 3.12.7
     "@types/katex": 0.11.1
     "@types/lodash": 4.14.179
-    "@types/markdown-it": 10.0.3
+    "@types/markdown-it": 12.2.3
     ContentTools: 1.6.13
     autoprefixer: 9.8.8
     axios: 0.21.4
@@ -5230,7 +5212,7 @@ fsevents@~2.1.2:
     js-sha256: 0.9.0
     katex: 0.13.18
     lodash-es: 4.17.21
-    markdown-it: 11.0.1
+    markdown-it: 12.3.2
     mini-css-extract-plugin: 0.12.0
     pnp-webpack-plugin: 1.7.0
     popper.js: 1.16.1
@@ -6008,18 +5990,18 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:11.0.1":
-  version: 11.0.1
-  resolution: "markdown-it@npm:11.0.1"
+"markdown-it@npm:12.3.2":
+  version: 12.3.2
+  resolution: "markdown-it@npm:12.3.2"
   dependencies:
-    argparse: ^1.0.7
-    entities: ~2.0.0
+    argparse: ^2.0.1
+    entities: ~2.1.0
     linkify-it: ^3.0.1
     mdurl: ^1.0.1
     uc.micro: ^1.0.5
   bin:
     markdown-it: bin/markdown-it.js
-  checksum: bba35081a0efb4651a197db73f29f0b6de86cc5db7c3a9f6258bc0372fac363db6078d85e3a154371f1ffc5b2a00e5eec1697b6c7912b5851635889cf9c80c26
+  checksum: 77ff6933ce19d8b888bb13575631ca9757d76866328e342672963e4ef98cff9c1945edf4a8b3ed2525f0b277cc89909399231dda6170af64412eadeefe9fc725
   languageName: node
   linkType: hard
 
@@ -8131,13 +8113,6 @@ resolve@^1.14.2:
   version: 1.1.2
   resolution: "sprintf-js@npm:1.1.2"
   checksum: 50d2008328a3cafac658a40de7fb7d3d899b8e12906b3784113a97199618531bc4237ef2779cc5a9cd6df06b58036fedf4578648a5bbfd01825ecb56546e3982
-  languageName: node
-  linkType: hard
-
-"sprintf-js@npm:~1.0.2":
-  version: 1.0.3
-  resolution: "sprintf-js@npm:1.0.3"
-  checksum: 51df1bce9e577287f56822d79ac5bd94f6c634fccf193895f2a1d2db2e975b6aa7bc97afae9cf11d49b7c37fe4afc188ff5c4878be91f2c86eabd11c5df8b62c
   languageName: node
   linkType: hard
 
