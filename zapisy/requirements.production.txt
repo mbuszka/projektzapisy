@@ -2,4 +2,4 @@
 
 psycopg2==2.9.3
 slackclient==2.9.4
-dropbox==10.10.0
+dropbox==11.36.2
