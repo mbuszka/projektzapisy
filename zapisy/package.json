@@ -27,7 +27,7 @@
     "js-cookie": "2.2.1",
     "js-sha256": "0.9.0",
     "katex": "0.13.18",
-    "lodash-es": "4.17.21",
+    "lodash-es": "4.18.1",
     "markdown-it": "11.0.1",
     "popper.js": "1.16.1",
     "vue": "2.6.14",
